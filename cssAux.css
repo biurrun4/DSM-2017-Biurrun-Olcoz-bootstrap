@@ -1,0 +1,121 @@
+
+.menuservicios li a{
+	font-size: 11px;
+	background-color: #AFAFAF;
+	line-height: auto;
+	padding: 3px 5px 3px 5px;
+	margin:2px 1px 2px 1px;
+	color: #FFFFFF;
+}
+
+.menu{
+	background-color: #959595;
+	color:white;
+	font-size: 12px;
+	padding: 10px 0px;
+}
+
+.menu li a{
+	color:#FFFFFF;
+}
+.menu h5{
+	text-transform: uppercase;
+	font-weight: bold;
+		color:white;
+}
+
+.inputQuery input{
+	width: 100%;
+}
+
+.idiomas li a{
+	background-color:transparent;
+	color:black;
+}
+
+form li{
+	padding: 5px;
+}
+
+body{
+	margin-top: 2.5%;
+}
+.botonbuscador{
+	font-size: 10px;
+}
+
+.fecha {
+	text-align: center;
+	font-size: 18px;
+	color:white;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: #B1B1B1;
+	width: 100%;
+	margin: 0;
+}
+
+.hora{
+		text-align: center;
+}
+
+.titulo{
+	text-transform: uppercase;
+	font-weight: bolder;
+	margin-bottom: 20px;
+}
+h6{
+	margin-top: -10px;
+}
+
+.twitter img{
+	width: 100%;
+}
+.cajasocial{
+	margin-top: 30px;
+}
+.cajasocial img{
+	width:30px;
+	height: 30px;
+	margin-left: 10px;
+}
+
+.pie{
+	background-color: #303030;
+}
+.pie li a, .pie li{
+	color:white;
+}
+
+.titleFooter{
+	color:orange;
+	text-transform: uppercase;
+	font-size:16px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+a.titleFooter{
+	color:orange;
+	text-transform: uppercase;
+	font-size:16px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+.dondeEstamos{
+	font-size: 12px;
+}
+
+.slider{
+	background-image: "fondo1.jpg";
+	background-repeat: repeat;
+	padding: 20px 0px;
+	width: 100%;
+}
+
+.separacion {
+	background-image: "fondo1.jpg";
+	max-height:20px;
+	width: 100%;
+	padding:10px;
+}
