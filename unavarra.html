@@ -6,10 +6,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width-device-width, initial-scale=!, maximum-scale=1, user-scalable=no">
 
-<link rel=stylesheet type="text/css" media="all" href="../bootstrap/css/bootstrap.min.css">
-<link rel=stylesheet type="text/css" media="all" href="../bootstrap/css/bootstrap-theme.min.css">
-<link rel=stylesheet type="text/css" media="all" href="cssAux.css">
-<link rel=stylesheet type="text/css" media="all" href="twitter.css">
+<link rel=stylesheet type="text/css" media="all" href="css/bootstrap.min.css">
+<link rel=stylesheet type="text/css" media="all" href="css/bootstrap-theme.min.css">
+<link rel=stylesheet type="text/css" media="all" href="css/cssAux.css">
 <title>Universidad Pública de Navarra</title>
 </head>
 
@@ -18,163 +17,173 @@
  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
 <body>
-<div class="container-fluid">
+<div class="container">
 	<!-- cabecera -->
 	<div class="row">
-		<div class="col-md-3 hidden-sm">
-		</div>
-		<div class="col-md-6 col-sm-12">
-			<div class="col-md-5 col-sm-12">
+		
+		<div class="col-md-12 col-sm-12 col-xs-12">
+			<div class="col-md-4 col-sm-6 col-xs-12">
 				<div class="col-md-12 hidden-xs hidden-sm">
-					<img src="upnalogo.jpg" alt="Universidad Pública de Navarra - Nafarroako Unibertsitate Publikoa">
+					<img src="img/upnalogo.jpg" alt="Universidad Pública de Navarra - Nafarroako Unibertsitate Publikoa">
 				</div>	
-				<div class="col-sm-12 hidden-md hidden-lg">
-					<img src="upnalogomovil.jpg" alt="Universidad Pública de Navarra - Nafarroako Unibertsitate Publikoa">
+				<div class="col-sm-10 col-xs-10 hidden-md hidden-lg">
+					<img style="width:100%" src="img/upnalogomovil.jpg" alt="Universidad Pública de Navarra - Nafarroako Unibertsitate Publikoa">
+				</div>
+				<div class="col-sm-2 col-xs-2 hidden-md hidden-lg">
+					<img style="width:40px" src="img/botonmenu.jpg" alt="Universidad Pública de Navarra - Nafarroako Unibertsitate Publikoa">
 				</div>
 			</div>	
-			<div class="col-md-7 hidden-xs col-sm-12">
+			<div class="col-md-8 col-sm-6 col-xs-12">
 					<ul class="navbar-nav menuservicios list-unstyled">
-						<li class="listButton "> <a class="menuservicios" href="https://portal.unavarra.es"> PORTAL SERVICIOS </a></li>
-						<li class="listButton "> <a class="menuservicios" href="http://www.unavarra.es/biblioteca"> BIBLIOTECA </a></li>
-						<li class="listButton "> <a class="menuservicios" href="https://sedeelectronica.unavarra.es/sede/"> SEDE ELECTRÓNICA </a></li>
-						<li> <form class="formularioBusquedaSmall " id="formularioBusqueda" method="get" >
-			            <div class="inputQuery">                                                 
-							<input id="xsqf01" class="query" type="text" name="query" title="Buscar" placeholder="Buscar..."/>
+						<div class=" col-md-8 col-sm-6 col-xs-12" >
+							<li class="listButton col-md-4 col-xs-12"> <a class="menuservicios col-xs-12" href="https://portal.unavarra.es"> PORTAL SERVICIOS </a><p>Miaulario,...</p></li>
+							<li class="listButton col-md-3 col-xs-12"> <a class="menuservicios col-xs-12" href="http://www.unavarra.es/biblioteca"> BIBLIOTECA </a></li>
+							<li class="listButton col-md-5 col-xs-12"> <a class="menuservicios col-xs-12" href="https://sedeelectronica.unavarra.es/sede/"> SEDE ELECTRÓNICA </a> <p>Tramites</p></li>
 						</div>
-			            <ul class="nav navbar-nav navbar-right list-unstyled">
-				            <li>
-								<input type="radio"  class="check" name="dondeBuscar" id="personas" value="personas" checked >
-								<label for="personas" class="botonbuscador">Personas</label>                                               
-							</li>
-							<li>
-								<input type="radio"  class="check" name="dondeBuscar" id="sitio" value="paginasWeb" >
-								<label for="sitio" class="botonbuscador">Sitio web</label>   
-							</li>
-				            <li>                    
-								<input type="radio" class="check"  name="dondeBuscar" id="catalogo" value="biblioteca" >
-								<label for="catalogo" class="botonbuscador">Biblioteca </label>
-							</li>
-						</ul>
-			            <div class="idiomas">    	
-					    	<ul class=" navbar-nav navbar-right list-unstyled">
-					    		<li> | </li>
-					    		<li><a href="/?languageId=100000" title="Castellano">ES</a></li>
-					    		<li> | </li>
-					    		<li><a href="/?languageId=100001" title="Euskera">EU</a></li>
-					    		<li> | </li>
-					    		<li><a href="/?languageId=1" title="English">EN</a></li>
-					    	
-					    	</ul>
-			            </div>             
-					</form> </li>
+						<li class="col-md-4 col-sm-6 col-xs-12"> 
+							<form class="formularioBusquedaSmall " id="formularioBusqueda" method="get" >
+					            <div class="row inputQuery">                                                 
+									<input id="xsqf01" class="query" type="text" name="query" title="Buscar" placeholder="Buscar..."/>
+								</div>
+								<div class="row col-xs-12 col-md-12">
+						            <ul class=" navbar-nav list-unstyled">
+							            <li class="col-xs-4 col-md-3">
+											<input type="radio"  class="check" name="dondeBuscar" id="personas" value="personas" checked >
+											<label for="personas" class="botonbuscador">Personas</label>                                               
+										</li>
+										<li class="col-xs-4 col-md-4">
+											<input type="radio"  class="check" name="dondeBuscar" id="sitio" value="paginasWeb" >
+											<label for="sitio" class="botonbuscador">Sitio web</label>   
+										</li>
+							            <li class="col-xs-4 col-md-4">                    
+											<input type="radio" class="check"  name="dondeBuscar" id="catalogo" value="biblioteca" >
+											<label for="catalogo" class="botonbuscador">Biblioteca </label>
+										</li>
+									</ul>
+								</div>
+					            <div class="row col-xs-12 idiomas">    	
+							    	<ul class=" navbar-nav navbar-right list-unstyled">
+							    		<li class="col-xs-2"> | </li>
+							    		<li class="col-xs-2"><a href="/?languageId=100000" title="Castellano">ES</a></li>
+							    		<li class="col-xs-2"> | </li>
+							    		<li class="col-xs-2"><a href="/?languageId=100001" title="Euskera">EU</a></li>
+							    		<li class="col-xs-2"> | </li>
+							    		<li class="col-xs-2"><a href="/?languageId=1" title="English">EN</a></li>
+							    	
+							    	</ul>
+					            </div>             
+							</form>
+						</li>
 					</ul>
 					
 				
 			</div>
 		</div>
-		<div class="col-md-3 hidden-sm"></div>
+		
 	</div> <!--Fin row -->
-
+</div>
+<div class="container-fluid">
 	<!-- menu -->
 	<div class="row menu">
-		<div class="col-md-3 hidden-sm">
-		</div>
-		<div class="col-md-6 col-sm-12">
+		
+		<div class="col-md-11 col-md-offset-1 col-lg-6 col-lg-offset-3">
 
-				<div class="col-md-2"><a href="http://www.unavarra.es/conocerlauniversidad/" title="La universidad"><h5 class="titulo">Universidad [+]</h5></a>
+				<div class="col-md-2 col-sm-2"><a href="http://www.unavarra.es/conocerlauniversidad/" title="La universidad"><h5 class="titulo">Universidad [+]</h5></a>
 					<ul class="list-unstyled">
-						<li><a href="http://www.unavarra.es/conocerlauniversidad/campus" title="Campus">Campus</a></li>
-						<li><a href="http://www.unavarra.es/conocerlauniversidad/organos-de-gobierno" title="Órganos de gobierno">&Oacute;rganos de gobierno</a></li>
-						<li><a href="http://www.unavarra.es/centrosydepartamentos/" title="Centros/departamentos">Centros/ departamentos</a></li>
-						<li><a href="http://www.unavarra.es/conocerlauniversidad/ven-a-conocernos" title="Ven a conocernos">Ven a conocernos</a></li>
-						<li><a href="http://www.unavarra.es/conocerlauniversidad/normativa" title="Normativa">Normativa</a></li>
-						<li><a href="http://www.unavarra.es/planestrategico/">Plan Estrat&eacute;gico</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/conocerlauniversidad/campus" title="Campus">Campus</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/conocerlauniversidad/organos-de-gobierno" title="Órganos de gobierno">&Oacute;rganos de gobierno</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/centrosydepartamentos/" title="Centros/departamentos">Centros/ departamentos</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/conocerlauniversidad/ven-a-conocernos" title="Ven a conocernos">Ven a conocernos</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/conocerlauniversidad/normativa" title="Normativa">Normativa</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/planestrategico/">Plan Estrat&eacute;gico</a></li>
 					</ul>
 				</div>
-				<div class="col-md-2"><a href="http://www.unavarra.es/estudios/" title="Estudios"><h5 class="titulo">Estudios [+]</h5></a>
+				<div class="col-md-2  col-sm-2"><a href="http://www.unavarra.es/estudios/" title="Estudios"><h5 class="titulo">Estudios [+]</h5></a>
 					<ul class="list-unstyled">
-						<li><a href="http://www.unavarra.es/estudios/grado" title="Grado">Grado</a></li>
-						<li><a href="http://www.unavarra.es/estudios/posgrado/oferta-de-posgrado-oficial/titulos-oficiales-de-master" title="Másteres">M&aacute;steres</a></li>
-						<li><a href="http://www.unavarra.es/estudios/posgrado/titulos-propios-y-formacion-continua/informacion-general" title="Formación continua">Formaci&oacute;n continua</a></li>
-						<li><a href="http://www.unavarra.es/escuela-doctorado/programas-de-doctorado">Doctorado</a></li>
-						<li><a href="http://www.unavarra.es/estudios/becas-ayudas-y-premios">Becas</a></li>
-						<li><a href="http://www.unavarra.es/informacionestudiante/" title="Oficina de información">Oficina de informaci&oacute;n</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/estudios/grado" title="Grado">Grado</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/estudios/posgrado/oferta-de-posgrado-oficial/titulos-oficiales-de-master" title="Másteres">M&aacute;steres</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/estudios/posgrado/titulos-propios-y-formacion-continua/informacion-general" title="Formación continua">Formaci&oacute;n continua</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/escuela-doctorado/programas-de-doctorado">Doctorado</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/estudios/becas-ayudas-y-premios">Becas</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/informacionestudiante/" title="Oficina de información">Oficina de informaci&oacute;n</a></li>
 					</ul>
 				</div>
-				<div class="col-md-2"><a href="http://www.unavarra.es/investigacion/" title="Investigación"><h5 class="titulo">Investigaci&oacute;n [+]</h5></a>
+				<div class="col-md-2  col-sm-2"><a href="http://www.unavarra.es/investigacion/" title="Investigación"><h5 class="titulo">Investigaci&oacute;n [+]</h5></a>
 					<ul class="list-unstyled">
-						<li><a href="http://www.unavarra.es/investigacion/grupos-de-investigacion-y-oferta-cientifica-y-tecnologica" title="Grupos de Investigación">Grupos de Investigaci&oacute;n</a></li>
-						<li><a href="http://www.unavarra.es/research-institutes/" title="Institutos de investigación">Institutos de investigaci&oacute;n</a></li>
-						<li><a href="http://www.unavarra.es/unidadculturacientifica/" title="UCC/Cultura Científica">UCC/Cultura Cient&iacute;fica</a></li>
-						<li><a href="http://www.unavarra.es/investigacion/transferencia-de-i-d-a-la-empresa-otri" title="Transferencia I+D">Transferencia I+D</a></li>
-						<li><a href="http://www.unavarra.es/centrosydepartamentos/catedras" title="Cátedras">C&aacute;tedras</a></li>
-						<li><a href="http://www.unavarra.es/investigacion/ayudas-y-convocatorias" title="Ayudas y convocatorias">Ayudas y convocatorias</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/investigacion/grupos-de-investigacion-y-oferta-cientifica-y-tecnologica" title="Grupos de Investigación">Grupos de Investigaci&oacute;n</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/research-institutes/" title="Institutos de investigación">Institutos de investigaci&oacute;n</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/unidadculturacientifica/" title="UCC/Cultura Científica">UCC/Cultura Cient&iacute;fica</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/investigacion/transferencia-de-i-d-a-la-empresa-otri" title="Transferencia I+D">Transferencia I+D</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/centrosydepartamentos/catedras" title="Cátedras">C&aacute;tedras</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/investigacion/ayudas-y-convocatorias" title="Ayudas y convocatorias">Ayudas y convocatorias</a></li>
 					</ul>
 				</div>
-				<div class="col-md-2"><a href="http://www.unavarra.es/servicios/" title="Servicios"><h5 class="titulo">Servicios [+]</h5></a>
+				<div class="col-md-2  col-sm-2"><a href="http://www.unavarra.es/servicios/" title="Servicios"><h5 class="titulo">Servicios [+]</h5></a>
 					<ul class="list-unstyled">
-						<li><a href="http://www.unavarra.es/fundacionuniversidadsociedad/empleo-y-practicas/presentacion" title="Empleo y prácticas">Empleo y pr&aacute;cticas</a></li>
-						<li><a href="http://www.unavarra.es/deportes/" title="Deportes">Deportes</a></li>
-						<li><a href="http://www.unavarra.es/cultura/" title="Cultura">Cultura</a></li>
-						<li><a href="http://www.unavarra.es/euskara/" title="Euskera">Euskera</a></li>
-						<li><a href="http://www.unavarra.es/servicioRRHH/" title="Recursos humanos">Recursos humanos</a></li>
-						<li><a href="http://www.unavarra.es/centroidiomas/" title="Centro de idiomas">Centro de idiomas</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/fundacionuniversidadsociedad/empleo-y-practicas/presentacion" title="Empleo y prácticas">Empleo y pr&aacute;cticas</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/deportes/" title="Deportes">Deportes</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/cultura/" title="Cultura">Cultura</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/euskara/" title="Euskera">Euskera</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/servicioRRHH/" title="Recursos humanos">Recursos humanos</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/centroidiomas/" title="Centro de idiomas">Centro de idiomas</a></li>
 					</ul>
 				</div>
-				<div class="col-md-2"><a href="http://www.unavarra.es/relacionesinternacionales/" title="Internacionalización"><h5 class="titulo">Internacional [+]</h5></a>
+				<div class="col-md-2  col-sm-2"><a href="http://www.unavarra.es/relacionesinternacionales/" title="Internacionalización"><h5 class="titulo">Internacional [+]</h5></a>
 					<ul class="list-unstyled">
-						<li><a href="http://www.unavarra.es/relacionesinternacionales/relaciones-internacionales-y-movilidad" title="Relaciones internacionales">Relaciones internacionales</a></li>
-						<li><a href="http://www.unavarra.es/relacionesinternacionales/relaciones-internacionales-y-movilidad" title="Movilidad">Movilidad</a></li>
-						<li><a href="http://www.unavarra.es/relacionesinternacionales/cooperacion-universitaria-al-desarrollo" title="Cooperación">Cooperaci&oacute;n</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/relacionesinternacionales/relaciones-internacionales-y-movilidad" title="Relaciones internacionales">Relaciones internacionales</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/relacionesinternacionales/relaciones-internacionales-y-movilidad" title="Movilidad">Movilidad</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/relacionesinternacionales/cooperacion-universitaria-al-desarrollo" title="Cooperación">Cooperaci&oacute;n</a></li>
 					</ul>
 				</div>
-				<div class="col-md-2"><a href="http://www.unavarra.es/perfil-nuevos-estudiantes/?languageId=100000"><h5 class="titulo">Perfiles [+]</h5></a>
+				<div class="col-md-2  col-sm-2"><a href="http://www.unavarra.es/perfil-nuevos-estudiantes/?languageId=100000"><h5 class="titulo">Perfiles [+]</h5></a>
 					<ul class="list-unstyled">
-						<li><a href="http://www.unavarra.es/perfil-nuevos-estudiantes/" title="Nuevos estudiantes">Nuevos estudiantes</a></li>
-						<li><a href="http://www.unavarra.es/perfil-estudiantes/" title="Estudiantes">Estudiantes</a></li>
-						<li><a href="http://www.unavarra.es/perfil-estudiantes-internacionales/" title="Estudiante internacional">Estudiante internacional</a></li>
-						<li><a href="http://www.unavarra.es/perfil-alumni/" title="Alumni">A3U - Alumni</a></li>
-						<li><a href="http://www.unavarra.es/perfil-personal-administracion-servicios/" title="PAS">PAS</a> <a href="http://www.unavarra.es/perfil-personal-docente/" title="PDI">PDI</a></li>
-						<li><a href="http://www.unavarra.es/perfil-sociedad-empresa/" title="Sociedad-Empresa">Sociedad-Empresa</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/perfil-nuevos-estudiantes/" title="Nuevos estudiantes">Nuevos estudiantes</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/perfil-estudiantes/" title="Estudiantes">Estudiantes</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/perfil-estudiantes-internacionales/" title="Estudiante internacional">Estudiante internacional</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/perfil-alumni/" title="Alumni">A3U - Alumni</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/perfil-personal-administracion-servicios/" title="PAS">PAS</a> <a href="http://www.unavarra.es/perfil-personal-docente/" title="PDI">PDI</a></li>
+						<li class="hidden-xs"><a href="http://www.unavarra.es/perfil-sociedad-empresa/" title="Sociedad-Empresa">Sociedad-Empresa</a></li>
 					</ul>
 				</div>
 			</div>
 
-		<div class="col-md-3 hidden-sm"></div>
+		
 	</div>	
+</div>
+<div class="container">
 	<!-- slide -->
-	<div class="row slider">
-			<div class="col-md-3 hidden-sm"></div>
-			<div class="col-md-6 col-sm-12">
-				<img src="sliderTempl.jpg">
+	<div class="row fondoraya">
+			
+			<div class="col-md-12 col-sm-12">
+				<img class="slider" src="img/sliderTempl.jpg">
 			</div>
-			<div class="col-md-3 hidden-sm"></div>
+			
 	</div>
 	<!-- contenido -->
 		<div class="row">
-			<div class="col-md-3 hidden-sm"></div>
-			<div class="col-md-6 col-sm-12">
+			
+			<div class="col-md-12 col-sm-12">
 				<div class="row">
 		
 					<div class="col-md-6 col-sm-12">
 	            		<h4 class="titulo">Noticia</h4> 
 	           
 	            		<div class="col-md-5 col-sm-6">
-	                       	<img src="noticia.jpg">
+	                       	<img src="img/noticia.jpg">
 						</div>
 	            		<div class="col-md-7 col-sm-6">
 	            			<h6>6 de febrero de 2017</h6>
 	            			<h4>La Red Telescopi para Latinoam&eacute;rica y Europa reconoce una buena práctica en dirección y gestión de la UPNA</h4>
-							<p>Se trata de una valoración del contenido de los grados y el perfil de egreso que adquieren los titulados, realizada por 80 agentes externos </p>   	
+							<p>Se trata de una valoración del contenido de los grados y el perfil de egreso que adquieren los titulados, realizada por 80 agentes externos </p>
 						</div>
 					</div>
-					<div class="col-md-6 col-sm-12">
+					<div class="col-md-6 col-sm-12 noticias">
 	            
-	            		<div class="col-md-6 col-sm-12">
+	            		<div class="col-md-6 col-sm-6 col-xs-6">
 	                    	<h4 class="titulo">Agenda</h4>
 	                    	<div class="row">
-	                    		<div class="col-md-5 col-sm-5">
-	                    			<div class="fecha col-md-12 col-sm-12">
+	                    		<div class="col-md-5 col-sm-5 col-xs-5">
+	                    			<div class="fecha">
 		                    			<span class="dia">08</span>
 		                    			<span class="mes">Feb</span>
 	                    			</div>
@@ -182,14 +191,14 @@
 	                    				<span>17:30</span>
 	                    			</div>
 	                    		</div>
-	                    		<div class="col-md-7 col-sm-5">
+	                    		<div class="col-md-7 col-sm-5 col-xs-5">
 	                    			<h6>CURSOS Y CONFERENCIAS</h6>
 	                    			<P><a href="http://agenda.unavarra.es/cal/event/eventView.do?b=de&amp;subid=10410&amp;calPath=%2Fpublic%2FExtensi%C3%B3n+Universitaria%2FAcci%C3%B3n+Social&amp;guid=CAL-024e1fdc-598d650a-0159-8daabe6e-00000004agenda@unavarra.es&amp;recurrenceId=">Curso de Reducción de Estrés Basado en Mindfulness</a></P>
 	                    		</div>
 	                   	 	</div>	
 	                   		<div class="row">
-	                    		<div class="col-md-5">
-	                    			<div class="fecha col-md-12">
+	                    		<div class="col-md-5 col-sm-5 col-xs-5">
+	                    			<div class="fecha">
 		                    			<span class="dia">08</span>
 		                    			<span class="mes">Feb</span>
 	                    			</div>
@@ -197,7 +206,7 @@
 	                    				<span>18:00</span>
 	                    			</div>
 	                    		</div>
-		                    	<div class="col-md-7">
+		                    	<div class="col-md-7 col-sm-5 col-xs-5">
 									<h6>CURSOS Y CONFERENCIAS</h6>
 									<P><a href="http://agenda.unavarra.es/cal/event/eventView.do?b=de&amp;subid=10411&amp;calPath=%2Fpublic%2FInvestigaci%C3%B3n%2FConferencia&amp;guid=CAL-024e1fdc-5a132b94-015a-133548b9-00000004agenda@unavarra.es&amp;recurrenceId=">Conferencia: SIG en el Transporte Urbano Comarcal</a></P>
 		                    	</div>
@@ -208,9 +217,9 @@
 		                    	</div>
 	                   		</div>	
 						</div>
-		            	<div class="col-md-6 col-sm-12">
+		            	<div class="col-md-6 col-sm-6 col-xs-12">
 		                    <h4 class="titulo">Información Académica</h4>
-	                    	<ul class="listado_menu">
+	                    	<ul class="listado_menu list-unstyled">
 								<li><a href="http://www.unavarra.es/estudios/informacion-academica/aulas?languageId=100000">Grado: Aulas y horarios</a></li>
 								<li><a href="http://www.unavarra.es/estudios/informacion-academica/reconocimiento-y-transferencia-de-creditos/grado-ensenianzas-universitarias?submenu=yes&amp;languageId=100000">Reconocimiento de cr&eacute;ditos</a></li>
 								<li><a href="http://www.unavarra.es/estudios/informacion-academica/calendario-academico?languageId=100000">Calendario acad&eacute;mico</a></li>
@@ -231,34 +240,34 @@
 			<div class="row separacion">
 			</div>
 			<div class="row">
-				<div class= "col-md-3">
+				<div class= "col-md-3 col-sm-3 col-xs-6">
 					<h4 class="titulo">Portal de transparencia</h4>
 					<div class="row">
-						<img src="transparencia.jpg">
+						<img src="img/transparencia.jpg">
 					</div>
 					<div class="row">
 						<a title="Portal de Transparencia" href="http://www.unavarra.es/portal-transparencia/">Conocer +</a>
 					</div>
 				</div>
-				<div class= "col-md-3">
+				<div class= "col-md-3 col-sm-3 col-xs-6">
 					<h4 class="titulo">Institutos de investigación</h4>
 					<div class="row">
-						<img src="institutos.jpg">
+						<img src="img/institutos.jpg">
 					</div>
 					<div class="row">
-						<a title="Institutos de Investigación" href="http://www.unavarra.es/research-institutes">Conocer +</a>
+						<a title="img/Institutos de Investigación" href="http://www.unavarra.es/research-institutes">Conocer +</a>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-3 col-xs-6">
 					<h4 class="titulo">UPNA, tu mejor invesión</h4>
 					<div class="row">
-						<img src="transparencia.jpg">
+						<img src="img/transparencia.jpg">
 					</div>
 					<div class="row">
 						<a title="Upna, tu mejor inversión" href="http://www.unavarra.es/mecenazgo/?languageId=100000">Conocer +</a>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-3 col-xs-6">
 					<h4 class="titulo">Convocatorias</h4>
 					<div class="row">
 						<a href="http://www.unavarra.es/servicioRRHH/empleo-publico" title="Personal +">Personal +</a>
@@ -276,38 +285,38 @@
 		<div class="row separacion">
 		</div>
 		<div class="row">
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-3 col-xs-6">
 					<h4 class="titulo">Vive la Universidad</h4>
 					<div class="row">
-						<img src="diferenciate.jpg">
+						<img src="img/diferenciate.jpg">
 					</div>
 					<div class="row">
 						<a title="Ciencia en el bar" href="https://www.youtube.com/user/cienciaenelbar">Conocer +</a>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3  col-sm-3 col-xs-6">
 					<h4 class="titulo">Ciencia en el bar</h4>
 					<div class="row">
-						<img src="cienciabar.jpg">
+						<img src="img/cienciabar.jpg">
 						<p>¿Dónde está la nube de Internet?</p>
 					</div>
 					<div class="row">
 						<a title="Ciencia en el bar" href="https://www.youtube.com/user/cienciaenelbar">Conocer +</a>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-3 col-xs-6">
 					<h4 class="titulo">Congresos</h4>
 					<div class="row">
-						<img src="transparencia.jpg">
+						<img src="img/transparencia.jpg">
 					</div>
 					<div class="row">
-						<a title="Congresos +" href="http://www.unavarra.es/actualidad/congresos">Congresos +</a>
+						<a title="img/Congresos +" href="http://www.unavarra.es/actualidad/congresos">Congresos +</a>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-3 col-xs-6">
 					<h4 class="titulo">Calendario académico</h4>
 					<div class="row">
-						<a title="Calendario académico" href="http://www.unavarra.es/estudios/informacion-academica/calendario-academico"><img src="calendario.jpg"></a>
+						<a title="Calendario académico" href="http://www.unavarra.es/estudios/informacion-academica/calendario-academico"><img src="img/calendario.jpg"></a>
 					</div>
 					<div class="row">
 						<a title="Calendario académico" href="http://www.unavarra.es/estudios/informacion-academica/calendario-academico">Conocer +</a>
@@ -315,7 +324,7 @@
 				</div>
 		</div>
 	</div>
-	<div class="col-md-3 hidden-sm"></div>
+	
 	</div>
 	<div class="row separacion">
 	</div>
@@ -323,31 +332,31 @@
 
 	<div class="col-md-12">
 		<div class="row">
-			<div class="col-md-3 hidden-sm"></div>
-			<div class="col-md-6 col-sm-12">
-				<img src="sliderAbajo.jpg">
+			
+			<div class="col-md-12 col-sm-12">
+				<img class="slider" src="img/sliderAbajo.jpg">
 			</div>
-			<div class="col-md-3 hidden-sm"></div>
+			
 		</div>
 	</div>
 
 			<!-- social -->
 	<div class="col-md-12">
 		<div class="row">
-			<div class="col-md-3 hidden-sm"></div>
-			<div class="col-md-6 col-sm-12">
-				<div class="col-md-6 twitter">
-					<img src="tuit.jpg">
+			
+			<div class="col-md-12 col-sm-12">
+				<div class="col-md-6 col-sm-6 twitter">
+					<img src="img/tuit.jpg">
 				</div>
-				<div class="col-md-6 cajasocial">
-                	<span><a href="http://www.facebook.com/upnauniversidad" title=""><img src="fbook.png"></a></span>
-                    <span><a href="http://twitter.com/Unavarra" title=""><img src="twitter.png"></a></span>
-                    <span><a href="http://youtube.com/upna" title=""><img src="youtube.png"></a></span>
-                    <span><a href="http://www.fspanckr.com/photos/upna" title=""><img src="flickr.jpg"></a></span>
-                    <span><a href="http://es.spannkedin.com/in/upnauniversidad" title=""><img src="linkedin.png"></a></span>
+				<div class="col-md-6 col-sm-6 cajasocial">
+                	<span><a href="http://www.facebook.com/upnauniversidad" title=""><img src="img/fbook.png"></a></span>
+                    <span><a href="http://twitter.com/Unavarra" title=""><img src="img/twitter.png"></a></span>
+                    <span><a href="http://youtube.com/upna" title=""><img src="img/youtube.png"></a></span>
+                    <span><a href="http://www.fspanckr.com/photos/upna" title=""><img src="img/flickr.jpg"></a></span>
+                    <span><a href="http://es.spannkedin.com/in/upnauniversidad" title=""><img src="img/linkedin.png"></a></span>
 				</div>
 			</div>
-			<div class="col-md-3 hidden-sm"></div>
+			
 		</div>
 	</div>
 	<div class="row separacion">
@@ -357,8 +366,8 @@
 		<div class="row">
         	<div class="col-xs-12">
 				<div class="row">
-					<div class="col-md-3 hidden-sm"></div>
-					<div class="col-md-6 col-sm-12">
+					
+					<div class="col-md-12 col-sm-12 menufoot">
 								<div class="col-md-3">
 									<h5 class="titleFooter"><a href="http://www.unavarra.es/conocerlauniversidad/" title="La universidad">La universidad</a></h5>
 									<ul class="list-unstyled">
@@ -399,7 +408,7 @@
 										</ul>
 								</div>
 								
-								<div class="col-md-3">
+								<div class="col-md-2">
 										<h5 class="titleFooter"><a href="http://www.unavarra.es/servicios/" title="Servicios">Servicios</a></h5>
 										<ul class="list-unstyled">
 											<li><a href="http://www.unavarra.es/servicios/apoyo-al-estudiante" title="Apoyo al estudiante">Apoyo al estudiante</a></li>
@@ -460,22 +469,19 @@
 										</ul>
 								</div>
 						</div>
-					<div class="col-md-3 hidden-sm"></div>
 				</div>
 					                                    
 				<div class="row final">
-					<div class="col-md-3 hidden-sm"></div>
-				    <div class="col-md-3 col-xs-12">
-				    	<p>&copy; Universidad P&uacute;blica de Navarra</p>
+				    <div class="col-md-6 col-sm-6 col-xs-12">
+				    	<p style="color:white">&copy; Universidad P&uacute;blica de Navarra</p>
 				    </div>
-				    <div class="col-md-3 col-xs-12">
-			    		<ul class="list-unstyled nav navbar-nav navbar-right">
-			    		     <li><a href="/aviso-legal/">Aviso legal</a></li>
-			    		     <li><a title="Contacto" href="/contacto/">Contacto</a></li> 
-			    		     <li><a title="Accesibilidad" href="/accesibilidad/">Accesibilidad</a></li>
+				    <div class="col-md-6 col-sm-6 col-xs-offset-2 col-xs-10">
+			    		<ul class="list-unstyled nav">
+			    		     <li class="col-xs-5"><a href="/aviso-legal/">Aviso legal</a></li>
+			    		     <li class="col-xs-3"><a title="Contacto" href="/contacto/">Contacto</a></li> 
+			    		     <li class="col-xs-4"><a title="Accesibilidad" href="/accesibilidad/">Accesibilidad</a></li>
 			    		</ul>
 			    	</div>
-			    	<div class="col-md-3 hidden-sm"></div>
 				</div>
                     
             </div>
