@@ -165,3 +165,78 @@ img{
 {
 	background-color: black;
 }
+.SizeMenuIdioma a
+{
+	color: black;
+	font-size: 12px;
+}
+.ColorFondo
+{
+	background-color: grey;
+}
+.ColorFondo0
+{
+	background-color: white;
+	padding-left: 120px;
+	margin-left: 27px;
+}
+.ColorFondo2
+{
+	background-color: black;
+}
+.fondo a
+{
+	font-size: 11px;
+	color: white;
+}
+.fondo h5
+{
+	font-size: 12;
+}
+.MenuDestacadosA
+{
+	color: black;
+	font-size: 15px;
+}
+.MenuDestacadosP
+{
+	color: grey;
+	font-size: 12px;
+}
+.MenuDestacados
+{
+	font-size: 15px;
+	font: bold;
+}
+.TextoGris
+{
+	color: grey;
+	font-size: 12px;
+}
+.TextoNegro a
+{
+	color: black;
+	font-size: 12px;
+}
+.colorNegro
+{
+	color: black;
+}
+.colorNegro a
+{
+	color: black;
+}
+.PiePagina
+{
+	background: #333;
+	color: white;
+	font-size: 10px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+.PiePagina a
+{
+	color: white;
+	font-size: 10px;
+	padding-right: 10px;
+}
